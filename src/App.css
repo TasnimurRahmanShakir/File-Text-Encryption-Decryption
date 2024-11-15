@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  height: 100vh;
+  border-radius: 8px;
+}
+
+.nav {
+  width: 200px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.nav h1 {
+  font-size: 1rem;
+  margin-bottom: calc(100% - 1rem);
+}
+
+.nav button {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  width: 180px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.nav button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d75);
+  transform: translateY(-2px);
+}
+
+.nav button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.right {
+  flex-grow: 1;
+  box-sizing: border-box;
+}
