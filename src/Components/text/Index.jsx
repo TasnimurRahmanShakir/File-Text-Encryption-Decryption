@@ -1,6 +1,6 @@
 import { Component } from "react";
 import MessageEncryption from "./EncryptionDecryption.jsx";
-import FileEncryption from "../file/Index.jsx";
+import FileEncryption from "../file/index.jsx";
 
 class EncryptionDecryption extends Component {
   constructor(props) {
